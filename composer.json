@@ -1,0 +1,27 @@
+{
+    "name": "gor-galaxy/whattimeisit",
+    "description": "Package with one class, that will tell you what time it is.",
+    "keywords": ["egor", "ivanov", "what", "time", "is", "it"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Egor Ivanov",
+            "email": "egor.siberia@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "php":">=7.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+           "Egor\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require-dev": {
+        "phpunit/phpunit": "^8.1"
+    }
+}
