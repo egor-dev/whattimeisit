@@ -3,6 +3,11 @@ declare(strict_types=1);
 
 namespace Egor;
 
+/**
+ * Class WhatTimeIsIt
+ *
+ * @package Egor
+ */
 class WhatTimeIsIt
 {
     public function please(): string
