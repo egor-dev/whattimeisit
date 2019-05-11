@@ -19,6 +19,11 @@
            "Egor\\": "src/"
         }
     },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require-dev": {
